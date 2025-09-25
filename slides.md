@@ -42,7 +42,7 @@ blockquote {
 
 ### Alternativas a Claude Code
 
-**🔹 Aider** https://aider.chat/
+**🔹 Aider** → https://aider.chat/
 - El original
 
 **🔹 Gemini CLI** → https://github.com/google-gemini/gemini-cli
@@ -52,11 +52,10 @@ blockquote {
 - Acceso con cuenta de ChatGPT
 
 **🔹 Qwen Code** → https://github.com/QwenLM/qwen-code
-- Gratis
+
+**🔹 OpenCode** → https://opencode.ai/
 
 **🔹 Claude Code Router** → https://github.com/musistudio/claude-code-router
-- Router para múltiples modelos en terminal
-
 
 ---
 
@@ -563,6 +562,18 @@ git worktree remove ../project-feature-a
 - Crear 3-4 checkouts en carpetas separadas
 - Abrir cada carpeta en pestañas de terminal separadas
 - Iniciar Claude en cada carpeta con tareas diferentes
+
+---
+
+# 📚 Recursos
+
+- Documentación completa (EN ESPAÑOL): https://docs.claude.com/es/docs/claude-code/overview
+- Claude Code Course (Free): https://anthropic.skilljar.com/claude-code-in-action
+- Mejores prácticas: https://www.anthropic.com/engineering/claude-code-best-practices
+- Awesome Claude Code: https://github.com/hesreallyhim/awesome-claude-code
+- Claude Code Templates: https://www.aitmpl.com
+- SuperClaude Framework: https://superclaude.netlify.app/
+- ClaudeLog: https://claudelog.com
 
 ---
 
