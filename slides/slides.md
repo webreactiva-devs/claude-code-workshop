@@ -3,6 +3,9 @@ marp: true
 theme: king
 paginate: true
 size: 4:3
+style: |
+  /* Clases de slide */
+  section.lead { background: #3f0303ff; color: #fff; }
 ---
 <style>
 a {
@@ -26,6 +29,11 @@ blockquote {
 ---
 
 ![bg](https://raw.githubusercontent.com/free-whiteboard-online/Free-Erasorio-Alternative-for-Collaborative-Design/315f566c53dcc01c5d4ff47994bc02ab5dc4e2f1/uploads/2025-09-25T11-00-55-139Z-uiidyp4eg.jpeg)
+
+---
+<!-- _class: lead -->
+
+> Lo básico
 
 ---
 
@@ -162,7 +170,7 @@ Permission mode to use for the session
 
 # 🚨 Modo YOLO
 
-## No lo hagas nunca
+> ¡¡No lo hagas nunca!!
 
 Establecer permisos totales y luego lanzarse a la ejecución sin control.
 
@@ -237,7 +245,7 @@ claude --continue
 **Claude Code UI** https://claudecodeui.com/
 - Mejor visualización de conversaciones
 
-**Claudia (opcode)**  https://claudia.so/**
+**Claudia (opcode)**  https://claudia.so/
 - Dashboard y agentes
 
 **Claude Code WebUI**  https://github.com/sugyan/claude-code-webui
@@ -255,6 +263,10 @@ claude --continue
 
 ![bg](https://raw.githubusercontent.com/free-whiteboard-online/Free-Erasorio-Alternative-for-Collaborative-Design/315f566c53dcc01c5d4ff47994bc02ab5dc4e2f1/uploads/2025-09-25T11-00-55-139Z-uiidyp4eg.jpeg)
 
+---
+<!-- _class: lead -->
+
+> Herramientas nativas de Claude Code
 
 ---
 
@@ -436,10 +448,14 @@ Antes de cada implementación, pregunta:
 | **Hooks**             | Automatización        | Eventos del sistema | Permanente         | Workflows automáticos          |
 | **Comandos slash**    | Prompts reutilizables | Principal           | Archivos estáticos | Tareas repetitivas             |
 
+---
+<!-- _class: lead -->
+
+> MCP en Claude Code
 
 ---
 
-# 🧠 MCP Server: 
+# 🧠 MCP Server
 Amplia las capacidades más allá de la IA
 
 ---
@@ -498,8 +514,10 @@ claude mcp add --transport http github https://api.githubcopilot.com/mcp
 
 
 ---
+<!-- _class: lead -->
 
-> # Más tips y consejos
+
+> Últimos trucos
 
 ---
 
