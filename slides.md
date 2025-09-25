@@ -29,12 +29,13 @@ blockquote {
 
 ---
 
-# 🤖 Asistentes agénticos de terminal
+# 🤖 Asistentes agénticos en terminal
 
-- Rápidos
+- Más rápidos al carecer de interfaz
 - Independientes del IDE 
 - Mejor experiencia de desarrollo
 - Muchos son Open Source
+- Flexibles
 - Pensados para devs
 
 
@@ -116,11 +117,12 @@ claude
 ---
 
 # 👀 CLAUDE.md
-
+- Archivo brújula que resume el proyecto
 - **Raíz del repo** → `CLAUDE.md` (recomendado)
-- **Directorio padre** → Para monorepos
-- **Directorio hijo** → Contexto específico
 - **Home folder** → `~/.claude/CLAUDE.md` (global)
+- Soporte para anidar carpetas padres e hijas
+
+**Importante**: Debes mantenerlo actualizado.
 
 ---
 
@@ -236,7 +238,7 @@ claude --continue
 - Mejor visualización de conversaciones
 
 **Claudia (opcode)**  https://claudia.so/**
-- Dashbiard y agente
+- Dashboard y agentes
 
 **Claude Code WebUI**  https://github.com/sugyan/claude-code-webui
 - UI open source
@@ -298,12 +300,14 @@ Luego:
 ## ¿Qué son?
 **Comandos shell** que se ejecutan automáticamente en puntos específicos del flujo de trabajo
 
-## Eventos disponibles:
-- **PreToolUse** → Antes de ejecutar herramientas (puede bloquear)
+## Algunos eventos disponibles:
+- **PreToolUse** → Antes de ejecutar herramientas 
 - **PostToolUse** → Después de usar herramientas
 - **Notification** → Cuando se necesita atención del usuario
 - **Stop** → Al finalizar respuestas
 - **SessionStart/End** → Inicio/fin de sesiones
+
+- Importante: Comando con "Exit 2" bloquea los procesos.
 
 **Comando:** `/hooks` para configurar
 
@@ -334,7 +338,7 @@ Luego:
 
 ---
 
-# 🤖 Subagentes: especialistas personalizados
+# 🤖 Agentes: especialistas personalizados
 
 ---
 
@@ -393,6 +397,8 @@ Review checklist:
 
 ## Personalización:
 - Se guardan en `~/.claude/output-styles/` o `.claude/output-styles/`
+
+**Comando**: `/output-style` para seleccionar el estilo
 
 ---
 
