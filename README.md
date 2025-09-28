@@ -4,6 +4,9 @@
 
 Un taller completo sobre **Claude Code**, el asistente de programación agéntico de Anthropic que revoluciona el desarrollo de software desde la línea de comandos.
 
+<img width="1567" height="1003" alt="image" src="https://github.com/user-attachments/assets/484915dc-8c32-43b5-805e-b328c5256328" />
+
+
 ## 📋 Contenido del Taller
 
 Este repositorio contiene todo el material necesario para dominar Claude Code, incluyendo:
